@@ -22,7 +22,7 @@ import {
   Wrench,
 } from "lucide-react";
 
-const logoUrl = "/manus-storage/een-logo_a30c7baf.png";
+const logoUrl = `${import.meta.env.BASE_URL}logo.png`;
 const heroImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663631220129/JbGuF4MxgbkqoTFViqS9mu/een-hero-maryland-renovation-BNKote7WjDXWBgspsM8E4h.webp";
 const servicesImage =

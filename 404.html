@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      // GitHub Pages SPA redirect: store the path and redirect to index.html
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.host + '/een-construction-website/' +
+        '?p=' + encodeURIComponent(l.pathname.slice('/een-construction-website/'.length) + l.search) +
+        (l.hash || '')
+      );
+    </script>
+  </head>
+</html>
